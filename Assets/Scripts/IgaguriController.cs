@@ -14,6 +14,7 @@ public class IgaguriController : MonoBehaviour {
 
     public void Shoot(Vector3 dir) {
         GetComponent<Rigidbody>().AddForce(dir);
+        GetComponent<ParticleSystem>().Play();
     }
 
     private void OnCollisionEnter(Collision other) {
