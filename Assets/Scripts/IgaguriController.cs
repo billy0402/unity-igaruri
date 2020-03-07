@@ -5,7 +5,7 @@ using UnityEngine;
 public class IgaguriController : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
-        Shoot(new Vector3(0, 200, 2000));
+        // Shoot(new Vector3(0, 200, 2000));
     }
 
     // Update is called once per frame
